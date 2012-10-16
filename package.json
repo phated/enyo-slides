@@ -1,0 +1,19 @@
+{
+  "name": "EnyoSlides",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "devDependencies": {
+    "grunt": "~0.3.16"
+  },
+  "enyo_template": "bootplate",
+  "enyo_libraries": [
+    "layout",
+    "onyx",
+    "socket"
+  ]
+}

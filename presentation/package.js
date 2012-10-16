@@ -1,5 +1,4 @@
 enyo.depends(
   "assets/",
-  "slides/",
-  "slideOrder.js"
+  "slides/"
 );

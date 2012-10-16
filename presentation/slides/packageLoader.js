@@ -93,7 +93,7 @@ enyo.kind({
               components: [
                 {
                   kind: "Node",
-                  icon: "presentation/assets/images/folder-open.png",
+                  icon: "$presentation/assets/images/folder-open.png",
                   content: "Project",
                   expandable: true,
                   expanded: true,
@@ -101,93 +101,93 @@ enyo.kind({
                   onNodeTap: "nodeTap",
                   components: [
                     {
-                      icon: "presentation/assets/images/file.png",
+                      icon: "$presentation/assets/images/file.png",
                       content: "package.js"
                     },
                     {
-                      icon: "presentation/assets/images/file.png",
+                      icon: "$presentation/assets/images/file.png",
                       content: "index.html"
                     },
                     {
-                      icon: "presentation/assets/images/folder.png",
+                      icon: "$presentation/assets/images/folder.png",
                       content: "enyo",
                       expandable: true,
                       components: [
                         {
-                          icon: "presentation/assets/images/folder.png",
+                          icon: "$presentation/assets/images/folder.png",
                           content: "__A Bunch of Enyo Directories__"
                         },
                         {
-                          icon: "presentation/assets/images/file.png",
+                          icon: "$presentation/assets/images/file.png",
                           content: "package.js"
                         },
                         {
-                          icon: "presentation/assets/images/file.png",
+                          icon: "$presentation/assets/images/file.png",
                           content: "enyo.js"
                         },
                         {
-                          icon: "presentation/assets/images/file.png",
+                          icon: "$presentation/assets/images/file.png",
                           content: "loader.js"
                         }
                       ]
                     },
                     {
-                      icon: "presentation/assets/images/folder.png",
+                      icon: "$presentation/assets/images/folder.png",
                       content: "lib",
                       expandable: true,
                       components: [
                         {
-                          icon: "presentation/assets/images/folder.png",
+                          icon: "$presentation/assets/images/folder.png",
                           content: "layout",
                           expandable: true,
                           components: [
                             {
-                              icon: "presentation/assets/images/folder.png",
+                              icon: "$presentation/assets/images/folder.png",
                               content: "__A Bunch of Layout Directories__"
                             },
                             {
-                              icon: "presentation/assets/images/file.png",
+                              icon: "$presentation/assets/images/file.png",
                               content: "package.js"
                             }
                           ]
                         },
                         {
-                          icon: "presentation/assets/images/folder.png",
+                          icon: "$presentation/assets/images/folder.png",
                           content: "onyx",
                           expandable: true,
                           components: [
                             {
-                              icon: "presentation/assets/images/folder.png",
+                              icon: "$presentation/assets/images/folder.png",
                               content: "__A Bunch of Onyx Directories__"
                             },
                             {
-                              icon: "presentation/assets/images/file.png",
+                              icon: "$presentation/assets/images/file.png",
                               content: "package.js"
                             }
                           ]
                         },
                         {
-                          icon: "presentation/assets/images/folder.png",
+                          icon: "$presentation/assets/images/folder.png",
                           content: "canvas",
                           expandable: true,
                           components: [
                             {
-                              icon: "presentation/assets/images/file.png",
+                              icon: "$presentation/assets/images/file.png",
                               content: "package.js"
                             }
                           ]
                         },
                         {
-                          icon: "presentation/assets/images/folder.png",
+                          icon: "$presentation/assets/images/folder.png",
                           content: "extra",
                           expandable: true,
                           components: [
                             {
-                              icon: "presentation/assets/images/folder.png",
+                              icon: "$presentation/assets/images/folder.png",
                               content: "__A Bunch of Extra Directories__"
                             },
                             {
-                              icon: "presentation/assets/images/file.png",
+                              icon: "$presentation/assets/images/file.png",
                               content: "package.js"
                             }
                           ]
@@ -204,7 +204,7 @@ enyo.kind({
     }
   ],
   nodeExpand: function(inSender, inEvent) {
-    inSender.setIcon("presentation/assets/images/" + (inSender.expanded ? "folder-open.png" : "folder.png"));
+    inSender.setIcon("$presentation/assets/images/" + (inSender.expanded ? "folder-open.png" : "folder.png"));
   },
   nodeTap: function(inSender, inEvent) {
     var node = inEvent.originator;

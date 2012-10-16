@@ -15,6 +15,8 @@ enyo.kind({
     }
   ],
   addQuestion: function(question){
+    'use strict';
+
     this.$.questionList.createComponent({
       content: enyo.macroize('{$name}: {$question}', question),
       style: 'margin: 0 50px;'

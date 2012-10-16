@@ -13,7 +13,7 @@ enyo.kind({
         {
           tag: 'li',
           components: [
-            { 
+            {
               content: 'Leverage Enyo kinds',
             },
             {
