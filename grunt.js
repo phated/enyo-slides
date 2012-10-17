@@ -8,8 +8,6 @@ module.exports = function(grunt) {
     lint: {
       files: ['grunt.js', 'source/**/*.js']
     },
-    concat: {},
-    min: {},
     server: {},
     watch: {
       files: '<config:lint.files>',
