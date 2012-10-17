@@ -66,6 +66,10 @@ enyo.kind({
                     },
                     {
                       tag: 'li',
+                      content: 'Assertions'
+                    },
+                    {
+                      tag: 'li',
                       content: 'Even a keyboard and joystick!'
                     }
                   ]

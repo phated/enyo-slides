@@ -94,7 +94,7 @@ enyo.kind({
                 },
                 {
                   tag: 'li',
-                  content: 'Tree - WIP'
+                  content: 'Tree'
                 }
               ]
             }

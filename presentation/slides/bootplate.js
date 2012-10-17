@@ -24,7 +24,7 @@ enyo.kind({
         },
         {
           tag: 'li',
-          content: 'Includes all Enyo packages'
+          content: 'Includes all Enyo + Onyx/Layout'
         },
         {
           tag: 'li',
@@ -37,11 +37,11 @@ enyo.kind({
               components: [
                 {
                   tag: 'li',
-                  content: 'Can be cloned from Github (enyo, onyx and layout submodules)'
+                  content: 'Can be cloned from Github (libs as submodules)'
                 },
                 {
                   tag: 'li',
-                  content: 'Or downloaded with source code from http://enyojs.com (includes all libraries)'
+                  content: 'Or downloaded with source code from http://enyojs.com'
                 }
               ]
             }

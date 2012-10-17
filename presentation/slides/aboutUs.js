@@ -44,6 +44,10 @@ enyo.kind({
                                 },
                                 {
                                   tag: 'li',
+                                  content: 'Contributor to EnyoJS'
+                                },
+                                {
+                                  tag: 'li',
                                   content: 'Works on JavaScript/HTML5 and Node.js'
                                 },
                                 {
@@ -52,6 +56,10 @@ enyo.kind({
                                 {
                                   tag: 'li',
                                   content: 'Does a lot of toolchain development'
+                                },
+                                {
+                                  tag: 'li',
+                                  content: 'Developed tooling for EnyoJS for easier and faster development'
                                 },
                                 {
                                   tag: 'li',
@@ -110,7 +118,7 @@ enyo.kind({
                             },
                             {
                               tag: 'li',
-                              content: 'HeatSync Labs board member'
+                              content: 'HeatSync Labs operations team member'
                             },
                             {
                               tag: 'li',
@@ -122,7 +130,7 @@ enyo.kind({
                             },
                             {
                               tag: 'li',
-                              content: 'Day job: Ruby on Rails Dev with Rebelhold'
+                              content: 'Day job: Freelance DevOps plus JavaScript and Ruby on Rails dev.'
                             },
                             {
                               tag: 'li',
@@ -142,8 +150,6 @@ enyo.kind({
                 {tag: "a", attributes: { href: "http://rix.si" }, content: "The blagosphere" },
                 {tag: "span", content: " - "},
                 {tag: "a", attributes: { href: "http://github.com/rrix" }, content: "Github" },
-                {tag: "span", content: " - "},
-                {tag: "a", attributes: { href: "http://rebelhold.com" }, content: "RebelHold" },
                 {tag: "span", content: " - "},
                 {tag: "a", attributes: { href: "http://twitter.com/rrrrrrrix" }, content: "Tweeters" },
                 {tag: "span", content: " - "},

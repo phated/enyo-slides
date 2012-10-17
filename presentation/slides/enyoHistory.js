@@ -37,6 +37,14 @@ enyo.kind({
         {
           tag: 'li',
           content: '2012 (June) - Enyo 2.0-beta5, new layouts/onyx widgets, and bootplate released'
+        },
+        {
+          tag: 'li',
+          content: '2012 (July) - Enyo 2.0-GA, new onyx widgets, bug fixes and sampler app released'
+        },
+        {
+          tag: 'li',
+          content: '2012 (August) - Enyo 2.0.1, enyo.load & enyo.singleton, bug fixes and more documentation'
         }
       ]
     }
