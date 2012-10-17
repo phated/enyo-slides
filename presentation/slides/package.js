@@ -14,6 +14,7 @@ enyo.depends(
   'bootplate.js',
   'communityGallery.js',
   'deployment.js',
+  'toolchain.js',
   'enyoFuture.js',
   'questions.js'
 );

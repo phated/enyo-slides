@@ -17,6 +17,7 @@ enyo.kind({
     'bootplate',
     'communityGallery',
     'deployment',
+    'toolchain',
     'enyoFuture',
     'questions'
   ]
