@@ -2,11 +2,9 @@ enyo.kind({
   kind: 'slidedeck.Slide',
   name: 'enyoHistory',
 
+  title: 'A Little History Lesson',
+
   components: [
-    {
-      kind: 'onyx.Toolbar',
-      content: 'A Little History Lesson'
-    },
     {
       tag: 'ul',
       components: [

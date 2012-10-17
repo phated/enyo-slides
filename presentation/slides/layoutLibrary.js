@@ -2,11 +2,9 @@ enyo.kind({
   kind: 'slidedeck.Slide',
   name: 'layoutLibrary',
 
+  title: 'Layouts, For Fun and Profit',
+
   components: [
-    {
-      kind: 'onyx.Toolbar',
-      content: 'Layouts, For Fun and Profit'
-    },
     {
       tag: 'ul',
       components: [

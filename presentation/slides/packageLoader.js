@@ -2,11 +2,9 @@ enyo.kind({
   kind: 'slidedeck.Slide',
   name: 'packageLoader',
 
+  title: 'Package Loader',
+
   components: [
-    {
-      kind: 'onyx.Toolbar',
-      content: 'Package Loader'
-    },
     {
       kind: 'enyo.FittableColumns',
       components: [

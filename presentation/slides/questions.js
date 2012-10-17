@@ -1,11 +1,10 @@
 enyo.kind({
   kind: 'slidedeck.Slide',
   name: 'questions',
+
+  title: 'Questions??',
+
   components: [
-    {
-      kind: 'onyx.Toolbar',
-      content: 'Questions??'
-    },
     {
       name: 'questionList',
       kind: 'Scroller',

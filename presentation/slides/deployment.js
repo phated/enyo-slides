@@ -2,11 +2,9 @@ enyo.kind({
   kind: 'slidedeck.Slide',
   name: 'deployment',
 
+  title: 'Deployment',
+
   components: [
-    {
-      kind: 'onyx.Toolbar',
-      content: 'Deployment'
-    },
     {
       tag: 'ul',
       components: [

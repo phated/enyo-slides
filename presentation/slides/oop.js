@@ -2,11 +2,9 @@ enyo.kind({
   kind: 'slidedeck.Slide',
   name: 'oop',
 
+  title: 'Object-Orientation in Enyo',
+
   components: [
-    {
-      kind: 'onyx.Toolbar',
-      content: 'Object-Orientation in Enyo'
-    },
     {
       tag: 'ul',
       components: [

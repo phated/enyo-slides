@@ -2,11 +2,9 @@ enyo.kind({
   kind: 'slidedeck.Slide',
   name: 'benefits',
 
+  title: 'What Are The Benefits?',
+
   components: [
-    {
-      kind: 'onyx.Toolbar',
-      content: 'What Are The Benefits?'
-    },
     {
       kind: 'enyo.FittableColumns',
       components: [

@@ -2,11 +2,9 @@ enyo.kind({
   kind: 'slidedeck.Slide',
   name: 'whatIsIt',
 
+  title: 'What Is Enyo?',
+
   components: [
-    {
-      kind: 'onyx.Toolbar',
-      content: 'What Is Enyo?'
-    },
     {
       tag: 'h1',
       classes: 'center',

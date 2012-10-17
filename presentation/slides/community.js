@@ -2,6 +2,8 @@ enyo.kind({
   kind: 'slidedeck.Slide',
   name: 'community',
 
+  title: 'The Awesome Enyo Community',
+
   components: [
     {
       kind: 'onyx.Popup',
@@ -15,10 +17,6 @@ enyo.kind({
           onclick: 'hidePopup'
         }
       ]
-    },
-    {
-      kind: 'onyx.Toolbar',
-      content: 'The Awesome Enyo Community'
     },
     {
       tag: 'ul',

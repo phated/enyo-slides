@@ -2,11 +2,9 @@ enyo.kind({
   kind: "slidedeck.Slide",
   name: "onyxWhy",
 
+  title: 'Onyx: Because plain widgets are boring',
+
   components: [
-    {
-      kind: 'onyx.Toolbar',
-      content: 'Onyx: Because plain widgets are boring'
-    },
     {
       tag: 'ul',
       components: [
@@ -14,7 +12,7 @@ enyo.kind({
           tag: 'li',
           components: [
             {
-              content: 'Leverage Enyo kinds',
+              content: 'Leverage Enyo kinds'
             },
             {
               tag: 'ul',

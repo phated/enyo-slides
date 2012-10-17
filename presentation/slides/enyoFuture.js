@@ -2,11 +2,9 @@ enyo.kind({
   kind: 'slidedeck.Slide',
   name: 'enyoFuture',
 
+  title: 'Back to the Future of Enyo',
+
   components: [
-    {
-      kind: 'onyx.Toolbar',
-      content: 'Back to the Future of Enyo'
-    },
     {
       kind: 'enyo.FittableColumns',
       components: [
@@ -25,19 +23,27 @@ enyo.kind({
                   components: [
                     {
                       tag: 'li',
-                      content: 'Release Candidate 1 is on the horizon - hopefully next month'
+                      content: 'Data model integration and binding'
                     },
                     {
                       tag: 'li',
-                      content: 'More Onyx widgets'
+                      content: 'New browser support (Chrome for Android, IE10, etc.)'
                     },
                     {
                       tag: 'li',
-                      content: 'Some kind of templating - looking at Mustache'
+                      content: 'Localization library'
                     },
                     {
                       tag: 'li',
-                      content: 'Wrapping more 3rd party libraries'
+                      content: 'UI component theming guide'
+                    },
+                    {
+                      tag: 'li',
+                      content: 'Adding LESS for theming'
+                    },
+                    {
+                      tag: 'li',
+                      content: 'Bower for package management? (If Blaine has anything to say about it)'
                     }
                   ]
                 }

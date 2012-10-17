@@ -2,11 +2,9 @@ enyo.kind({
   kind: 'slidedeck.Slide',
   name: 'communityGallery',
 
+  title: 'Enhancements: Community Style',
+
   components: [
-    {
-      kind: 'onyx.Toolbar',
-      content: 'Enhancements: Community Style'
-    },
     {
       kind: 'enyo.FittableColumns',
       components: [

@@ -8,8 +8,8 @@ enyo.kind({
       {tag: "h1",  content: "EnyoJS as a Framework for Great Justice"},
       {tag: "h2",  content: "Blaine Bublitz and Ryan Rix"},
       {tag: "h2",  content: "(@BlaineBublitz and @rrrrrrrix)"},
-      {tag: "h2",  content: "http://phxmobi.nodester.com"},
-      {tag: "h2",  content: "21 June 2012"}
+      {tag: "h2",  content: "http://gdg-enyo.nodester.com"},
+      {tag: "h2",  content: "17 October 2012"}
     ]}
   ]
 });
